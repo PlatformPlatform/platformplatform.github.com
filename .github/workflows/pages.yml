@@ -19,14 +19,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       - name: Install Node modules
-        run: bun install --frozen-lockfile
+        run: npm ci
 
       - name: Build static pages
-        run: bun build
+        run: npm run build
 
       - name: Setup Pages
         id: pages
