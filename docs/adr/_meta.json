@@ -1,0 +1,23 @@
+[
+  "index",
+  {
+    "label": "Techniques",
+    "type": "dir",
+    "name": "techniques"
+  },
+  {
+    "label": "Tools",
+    "type": "dir",
+    "name": "tools"
+  },
+  {
+    "label": "Platforms",
+    "type": "dir",
+    "name": "platforms"
+  },
+  {
+    "label": "Languages & Frameworks",
+    "type": "dir",
+    "name": "languages-frameworks"
+  }
+]

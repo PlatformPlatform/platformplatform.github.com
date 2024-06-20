@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Guide",
+    "link": "/guide/start/introduction",
+    "activeMatch": "/guide"
+  },
+  {
+    "text": "Config",
+    "link": "/config/",
+    "activeMatch": "/config"
+  },
+  {
+    "text": "ADR",
+    "link": "/adr/index",
+    "activeMatch": "/adr"
+  },
+  {
+    "text": "Blog",
+    "link": "/blog/index",
+    "activeMatch": "/blog"
+  },
+  {
+    "text": "About",
+    "link": "/misc/faq",
+    "activeMatch": "/misc"
+  },
+  {
+    "text": "Contribute",
+    "link": "/contribute/index",
+    "activeMatch": "/contribute"
+  }
+]
