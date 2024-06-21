@@ -11,6 +11,9 @@ export default defineConfig({
     light: "/logo-long-light.png",
     dark: "/logo-long-dark.png",
   },
+  route: {
+    cleanUrls: true,
+  },
   themeConfig: {
     outlineTitle: "Table of Contents",
     lastUpdated: true,
